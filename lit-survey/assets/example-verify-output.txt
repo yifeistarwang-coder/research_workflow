@@ -1,0 +1,11 @@
+输出示意片段，非一次实际运行记录：
+
+PASS  timeline.md present
+PASS  backbone/ notes exist  — 2 note(s)
+PASS  backbone coverage  — 2 backbone node(s) covered
+PASS  survey.md present
+
+OVERALL PASS
+
+PASS 表示检查器的对应条件成立。它不证明论文关系、原文理解或 researcher 阅读状态已经核实。
+assets/example-*.md 使用虚构论文演示写法，未附可运行的 lineage.json 或论文原文。

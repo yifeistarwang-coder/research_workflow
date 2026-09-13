@@ -1,0 +1,4 @@
+interface:
+  display_name: "Lit Survey"
+  short_description: "辅助研究者找奠基论文、梳理主线、准备主干导读并总结 follow-up。"
+  default_prompt: "Use $lit-survey to help me survey this research direction. Start with highly cited foundational papers, trace how later work extends or changes their ideas, recommend the main papers for me to read closely, and summarize intermediate follow-ups as related work. Prepare reading guides with source locations, distinguish your reading from mine, and explain unresolved relationships."

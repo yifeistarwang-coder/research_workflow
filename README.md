@@ -100,8 +100,15 @@ Semantic Scholar API key 可通过 `S2_API_KEY` 或 `--s2-key` 提供；OpenAlex
 │   ├── references/           # 领域梳理、阅读、写作和脚本说明
 │   ├── assets/               # 导读、报告与 related work 的模板和示例
 │   └── scripts/              # 检索、引文采集、PDF 处理与结构检查
+├── git-commit/
+│   └── SKILL.md              # Conventional Commits 提交流程
+├── guides/
+│   ├── AI-AGENTS-ADVICE.md   # AI 协作与学习建议
+│   └── handbook-skills.md    # handbook 内容评审流程
+├── agents-md-templates/
+│   └── AGENTS.md             # 学习伙伴 AGENTS.md 模板
 └── reflection/
     └── README.md             # 科研与读博心得
 ```
 
-`assets/` 中的示例使用虚构论文演示写法，不能作为真实文献引用。[reflection](reflection/README.md) 记录通过实践理解论文、博士阶段试错和亲自阅读原文等体会。
+`assets/` 中的示例使用虚构论文演示写法，不能作为真实文献引用。[reflection](reflection/README.md) 记录通过实践理解论文、博士阶段试错和亲自阅读原文等体会。`guides/` 收录通用协作建议和 handbook 评审说明；[git-commit/SKILL.md](git-commit/SKILL.md) 定义 Git 提交规范；`agents-md-templates/` 保留可复用的 `AGENTS.md` 模板。

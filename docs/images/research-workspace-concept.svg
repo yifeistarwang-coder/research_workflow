@@ -1,0 +1,118 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1360" height="760" viewBox="0 0 1360 760" role="img" aria-labelledby="title desc">
+  <title id="title">Literature survey workspace concept</title>
+  <desc id="desc">A conceptual research dashboard with survey navigation, a paper lineage graph, evidence references, and separate agent and researcher reading states. This is not a shipped application interface.</desc>
+  <rect width="1360" height="760" fill="#f2f5f3"/>
+  <rect x="24" y="24" width="1312" height="712" rx="10" fill="#fff" stroke="#dce4e0"/>
+  <path d="M24 90h1312" stroke="#e2e8e5"/>
+
+  <g font-family="Inter, Segoe UI, Arial, sans-serif">
+    <rect x="46" y="42" width="32" height="32" rx="7" fill="#167b72"/>
+    <path d="M55 52h14M55 58h14M55 64h9" stroke="#fff" stroke-width="2" stroke-linecap="round"/>
+    <text x="90" y="56" fill="#203333" font-size="14" font-weight="700">Research Workflow</text>
+    <text x="90" y="74" fill="#71807b" font-size="10" letter-spacing="1">LITERATURE SURVEY · CONCEPT UI</text>
+    <rect x="738" y="40" width="310" height="36" rx="6" fill="#f7f9f8" stroke="#dce4e0"/>
+    <circle cx="757" cy="57" r="6" fill="none" stroke="#788782" stroke-width="1.5"/>
+    <path d="m761 61 5 5" stroke="#788782" stroke-width="1.5"/>
+    <text x="775" y="61" fill="#81908a" font-size="12">Search papers, notes, claims...</text>
+    <rect x="1064" y="40" width="134" height="36" rx="6" fill="#fff" stroke="#ccd8d3"/>
+    <path d="M1082 51v12m-4-4 4 4 4-4" fill="none" stroke="#49615c" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="1094" y="62" fill="#334b46" font-size="12" font-weight="600">Export report</text>
+    <rect x="1210" y="40" width="103" height="36" rx="6" fill="#e8f2ef"/>
+    <circle cx="1227" cy="58" r="4" fill="#167b72"/>
+    <text x="1238" y="62" fill="#23675c" font-size="11" font-weight="600">Draft survey</text>
+
+    <rect x="24" y="91" width="224" height="645" fill="#fafcfb"/>
+    <path d="M248 91v645" stroke="#e2e8e5"/>
+    <text x="48" y="120" fill="#84918d" font-size="10" font-weight="700" letter-spacing="1">CURRENT SURVEY</text>
+    <text x="48" y="147" fill="#263b38" font-size="16" font-weight="700">Adaptive retrieval</text>
+    <text x="48" y="166" fill="#73817d" font-size="11">RAG · 2019–2025 · topic map</text>
+    <path d="M48 184h176" stroke="#e4eae7"/>
+    <text x="48" y="211" fill="#929d99" font-size="10" font-weight="700" letter-spacing="1">WORKFLOW</text>
+    <g font-size="12">
+      <circle cx="60" cy="241" r="4" fill="#98aaa4"/><text x="75" y="245" fill="#52625d">Scope</text><path d="M189 238l4 4 7-8" fill="none" stroke="#167b72" stroke-width="1.6"/>
+      <circle cx="60" cy="278" r="4" fill="#98aaa4"/><text x="75" y="282" fill="#52625d">Seed papers</text><path d="M189 275l4 4 7-8" fill="none" stroke="#167b72" stroke-width="1.6"/>
+      <rect x="38" y="296" width="196" height="34" rx="6" fill="#e8f2ef"/><rect x="38" y="304" width="3" height="18" rx="1.5" fill="#167b72"/><circle cx="60" cy="313" r="4" fill="#167b72"/><text x="75" y="317" fill="#15594f" font-weight="700">Research lineage</text>
+      <circle cx="60" cy="351" r="4" fill="#c0cbc7"/><text x="75" y="355" fill="#74817d">Backbone notes</text><rect x="190" y="340" width="25" height="18" rx="5" fill="#f0f3f1"/><text x="198" y="353" fill="#6d7a76" font-size="10">06</text>
+      <circle cx="60" cy="388" r="4" fill="#c0cbc7"/><text x="75" y="392" fill="#74817d">Follow-up digest</text>
+      <circle cx="60" cy="425" r="4" fill="#c0cbc7"/><text x="75" y="429" fill="#74817d">Report &amp; checks</text>
+    </g>
+    <rect x="42" y="610" width="188" height="100" rx="7" fill="#fff" stroke="#e0e7e3"/>
+    <text x="57" y="633" fill="#7a8783" font-size="10" font-weight="700" letter-spacing=".5">READING PLAN</text>
+    <text x="57" y="662" fill="#263b38" font-size="22" font-weight="700">6 <tspan fill="#73817d" font-size="12" font-weight="400">backbone papers</tspan></text>
+    <rect x="57" y="678" width="158" height="5" rx="2.5" fill="#e7edeb"/><rect x="57" y="678" width="61" height="5" rx="2.5" fill="#d86f4d"/>
+    <text x="57" y="699" fill="#899590" font-size="10">2 notes prepared · 0 feedback</text>
+
+    <text x="278" y="130" fill="#203333" font-size="22" font-weight="700">Research lineage</text>
+    <text x="278" y="153" fill="#74817d" font-size="12">Changes in problem framing and method assumptions</text>
+    <rect x="278" y="170" width="118" height="24" rx="5" fill="#f0f4f2"/><text x="291" y="186" fill="#50635d" font-size="10" font-weight="600">3 turning points</text>
+    <rect x="404" y="170" width="104" height="24" rx="5" fill="#f0f4f2"/><text x="417" y="186" fill="#50635d" font-size="10" font-weight="600">2 open links</text>
+    <rect x="770" y="166" width="174" height="30" rx="5" fill="#fff" stroke="#dce4e0"/><circle cx="788" cy="181" r="4" fill="#167b72"/><text x="799" y="185" fill="#50615c" font-size="10">Source-checked relation</text>
+
+    <rect x="278" y="210" width="666" height="498" rx="8" fill="#fbfcfb" stroke="#e3e9e6"/>
+    <g stroke="#e7ece9" stroke-width="1">
+      <path d="M300 280h620M300 370h620M300 460h620M300 550h620M370 230v440M500 230v440M630 230v440M760 230v440M890 230v440"/>
+    </g>
+    <g fill="#8a9792" font-size="10">
+      <text x="321" y="684">2019</text><text x="482" y="684">2021</text><text x="645" y="684">2023</text><text x="807" y="684">2025</text>
+      <text x="295" y="241">METHOD SHIFT</text>
+    </g>
+    <g fill="none" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M397 365C444 365 441 303 488 303" stroke="#167b72" stroke-width="2.5"/>
+      <path d="M510 303C560 303 562 391 610 391" stroke="#167b72" stroke-width="2.5"/>
+      <path d="M511 314C560 314 566 510 610 510" stroke="#d9a33b" stroke-width="2" stroke-dasharray="5 5"/>
+      <path d="M632 391C682 391 682 328 731 328" stroke="#167b72" stroke-width="2.5"/>
+      <path d="M632 510C685 510 684 479 731 479" stroke="#aab7b2" stroke-width="2" stroke-dasharray="5 5"/>
+      <path d="M753 328C800 328 800 385 847 385" stroke="#167b72" stroke-width="2.5"/>
+    </g>
+    <g>
+      <rect x="315" y="333" width="106" height="62" rx="6" fill="#fff" stroke="#95c5bb" stroke-width="1.5"/>
+      <circle cx="329" cy="347" r="4" fill="#167b72"/><text x="339" y="351" fill="#167b72" font-size="9" font-weight="700" font-family="Inter, Segoe UI, Arial, sans-serif">BACKBONE</text>
+      <text x="327" y="369" fill="#263b38" font-size="11" font-weight="700" font-family="Inter, Segoe UI, Arial, sans-serif">Paper A</text><text x="327" y="385" fill="#82908b" font-size="9" font-family="Inter, Segoe UI, Arial, sans-serif">2019 · problem setup</text>
+      <rect x="466" y="271" width="108" height="62" rx="6" fill="#fff" stroke="#95c5bb" stroke-width="1.5"/>
+      <circle cx="480" cy="285" r="4" fill="#167b72"/><text x="490" y="289" fill="#167b72" font-size="9" font-weight="700" font-family="Inter, Segoe UI, Arial, sans-serif">BACKBONE</text>
+      <text x="478" y="307" fill="#263b38" font-size="11" font-weight="700" font-family="Inter, Segoe UI, Arial, sans-serif">Paper B</text><text x="478" y="323" fill="#82908b" font-size="9" font-family="Inter, Segoe UI, Arial, sans-serif">2021 · retrieval strategy</text>
+      <rect x="588" y="359" width="108" height="62" rx="6" fill="#fff" stroke="#95c5bb" stroke-width="1.5"/>
+      <circle cx="602" cy="373" r="4" fill="#167b72"/><text x="612" y="377" fill="#167b72" font-size="9" font-weight="700" font-family="Inter, Segoe UI, Arial, sans-serif">BACKBONE</text>
+      <text x="600" y="395" fill="#263b38" font-size="11" font-weight="700" font-family="Inter, Segoe UI, Arial, sans-serif">Paper C</text><text x="600" y="411" fill="#82908b" font-size="9" font-family="Inter, Segoe UI, Arial, sans-serif">2023 · adaptive policy</text>
+      <rect x="588" y="478" width="108" height="62" rx="6" fill="#fff" stroke="#e1c77e" stroke-width="1.5"/>
+      <circle cx="602" cy="492" r="4" fill="#d9a33b"/><text x="612" y="496" fill="#a2761d" font-size="9" font-weight="700" font-family="Inter, Segoe UI, Arial, sans-serif">FOLLOW-UP</text>
+      <text x="600" y="514" fill="#263b38" font-size="11" font-weight="700" font-family="Inter, Segoe UI, Arial, sans-serif">Paper D</text><text x="600" y="530" fill="#82908b" font-size="9" font-family="Inter, Segoe UI, Arial, sans-serif">2023 · budget study</text>
+      <rect x="709" y="296" width="108" height="62" rx="6" fill="#fff" stroke="#95c5bb" stroke-width="1.5"/>
+      <circle cx="723" cy="310" r="4" fill="#167b72"/><text x="733" y="314" fill="#167b72" font-size="9" font-weight="700" font-family="Inter, Segoe UI, Arial, sans-serif">BACKBONE</text>
+      <text x="721" y="332" fill="#263b38" font-size="11" font-weight="700" font-family="Inter, Segoe UI, Arial, sans-serif">Paper E</text><text x="721" y="348" fill="#82908b" font-size="9" font-family="Inter, Segoe UI, Arial, sans-serif">2024 · self-check</text>
+      <rect x="825" y="354" width="102" height="62" rx="6" fill="#fff" stroke="#c8d3cf" stroke-width="1.5"/>
+      <circle cx="839" cy="368" r="4" fill="#8b9a94"/><text x="849" y="372" fill="#72807a" font-size="9" font-weight="700" font-family="Inter, Segoe UI, Arial, sans-serif">TO REVIEW</text>
+      <text x="837" y="390" fill="#263b38" font-size="11" font-weight="700" font-family="Inter, Segoe UI, Arial, sans-serif">Paper F</text><text x="837" y="406" fill="#82908b" font-size="9" font-family="Inter, Segoe UI, Arial, sans-serif">2025 · open question</text>
+    </g>
+    <rect x="301" y="646" width="11" height="11" rx="2" fill="#167b72"/><text x="319" y="656" fill="#70807a" font-size="10">backbone</text>
+    <rect x="385" y="646" width="11" height="11" rx="2" fill="#d9a33b"/><text x="403" y="656" fill="#70807a" font-size="10">follow-up</text>
+    <path d="M480 651h24" stroke="#167b72" stroke-width="2"/><text x="511" y="656" fill="#70807a" font-size="10">source-checked</text>
+    <path d="M614 651h24" stroke="#aaa" stroke-width="2" stroke-dasharray="4 4"/><text x="645" y="656" fill="#70807a" font-size="10">relationship to verify</text>
+
+    <rect x="966" y="112" width="346" height="596" rx="8" fill="#fff" stroke="#e0e7e3"/>
+    <text x="990" y="143" fill="#203333" font-size="15" font-weight="700">Evidence &amp; reading status</text>
+    <text x="990" y="164" fill="#7c8984" font-size="11">Selected: Paper C → Paper E</text>
+    <rect x="990" y="185" width="298" height="30" rx="5" fill="#e8f2ef"/>
+    <circle cx="1007" cy="200" r="4" fill="#167b72"/><text x="1019" y="204" fill="#23675c" font-size="10" font-weight="600">SOURCE-CHECKED RELATION</text>
+    <text x="990" y="244" fill="#73817c" font-size="10" font-weight="700" letter-spacing=".7">WHAT CHANGED</text>
+    <text x="990" y="266" fill="#354b46" font-size="12">Paper E keeps the adaptive retrieval</text>
+    <text x="990" y="284" fill="#354b46" font-size="12">setting and adds a self-check step.</text>
+    <text x="990" y="314" fill="#73817c" font-size="10" font-weight="700" letter-spacing=".7">SOURCE LOCATION</text>
+    <rect x="990" y="327" width="298" height="57" rx="6" fill="#f8faf9" stroke="#e5ebe8"/>
+    <text x="1005" y="349" fill="#263b38" font-size="11" font-weight="600">Paper E · PDF version 2</text>
+    <text x="1005" y="369" fill="#167b72" font-size="11">p. 4 · Section 3.1 · Figure 2</text>
+    <path d="M990 405h298" stroke="#e8edeb"/>
+    <text x="990" y="430" fill="#73817c" font-size="10" font-weight="700" letter-spacing=".7">AGENT MATERIAL REVIEWED</text>
+    <circle cx="1000" cy="454" r="5" fill="#167b72"/><text x="1013" y="458" fill="#3c514c" font-size="11">Method and Figure 2</text>
+    <text x="1013" y="476" fill="#82908b" font-size="10">PDF pp. 3–5 · checked against source</text>
+    <text x="990" y="509" fill="#73817c" font-size="10" font-weight="700" letter-spacing=".7">RESEARCHER READING</text>
+    <rect x="990" y="522" width="138" height="26" rx="5" fill="#fff0e9"/>
+    <circle cx="1005" cy="535" r="4" fill="#d86f4d"/><text x="1016" y="539" fill="#984a32" font-size="10" font-weight="600">Awaiting feedback</text>
+    <text x="990" y="574" fill="#73817c" font-size="10" font-weight="700" letter-spacing=".7">NEXT READING PROMPT</text>
+    <rect x="990" y="588" width="298" height="75" rx="6" fill="#fffaf0" stroke="#efe4c8"/>
+    <text x="1005" y="611" fill="#6d5930" font-size="11">Compare the controlled settings in</text>
+    <text x="1005" y="629" fill="#6d5930" font-size="11">Table 2 before attributing the gain</text>
+    <text x="1005" y="647" fill="#6d5930" font-size="11">to the added self-check step.</text>
+    <text x="990" y="690" fill="#9aa49f" font-size="9">Illustrative paper names and data · not a shipped web app</text>
+  </g>
+</svg>

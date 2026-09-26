@@ -4,6 +4,10 @@
 
 项目关注研究者如何建立对一个方向的理解：从奠基论文出发，追踪关键问题和方法的变化，把精读时间放在重要论文上。AI 负责检索、整理证据、准备导读和比较后续工作；研究者通过阅读原文、实践和反馈形成自己的判断。
 
+## Workflow at a glance
+
+![从研究问题到阅读计划的协作流程](docs/images/literature-survey-workflow.svg)
+
 ## 从一次文献调研开始
 
 让具备文献检索、文件读写和论文阅读能力的 AI agent 读取 [lit-survey/SKILL.md](lit-survey/SKILL.md)，再描述你的研究方向、调研用途、已知起点论文和阅读预算。例如：
@@ -15,6 +19,10 @@
 执行调研可以使用 agent 已有的学术搜索和论文阅读工具。仓库附带的 Python 脚本是可选辅助，使用流程本身无需先安装这些脚本的依赖。
 
 ## lit-survey 如何工作
+
+![展示论文脉络、证据定位和阅读状态的工作台概念图](docs/images/research-workspace-concept.svg)
+
+<sub>概念示意，不是仓库内置的 Web 应用；论文名称与数据均为示例。</sub>
 
 | 步骤 | 要解决的问题 | 主要产出 |
 | --- | --- | --- |
@@ -94,6 +102,8 @@ Semantic Scholar API key 可通过 `S2_API_KEY` 或 `--s2-key` 提供；OpenAlex
 ```text
 .
 ├── README.md
+├── docs/
+│   └── images/               # README 流程图与工作台概念图
 ├── lit-survey/
 │   ├── SKILL.md              # 文献调研流程入口
 │   ├── agents/openai.yaml    # 界面名称、描述与默认提示词
@@ -111,4 +121,4 @@ Semantic Scholar API key 可通过 `S2_API_KEY` 或 `--s2-key` 提供；OpenAlex
     └── README.md             # 科研与读博心得
 ```
 
-`assets/` 中的示例使用虚构论文演示写法，不能作为真实文献引用。[reflection](reflection/README.md) 记录通过实践理解论文、博士阶段试错和亲自阅读原文等体会。`guides/` 收录通用协作建议和 handbook 评审说明；[git-commit/SKILL.md](git-commit/SKILL.md) 定义 Git 提交规范；`agents-md-templates/` 保留可复用的 `AGENTS.md` 模板。
+`assets/` 中的示例使用虚构论文演示写法，不能作为真实文献引用。[reflection](reflection/README.md) 记录通过实践理解论文、博士阶段试错和亲自阅读原文等体会。`guides/` 收录通用协作建议和 handbook 评审说明；[git-commit/SKILL.md](git-commit/SKILL.md) 定义 Git 提交规范；`agents-md-templates/` 保留可复用的 `AGENTS.md` 模板。README 的流程图和工作台概念图位于 `docs/images/`。

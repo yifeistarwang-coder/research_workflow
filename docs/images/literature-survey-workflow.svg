@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="480" viewBox="0 0 1280 480" role="img" aria-labelledby="title desc">
+  <title id="title">AI-assisted literature survey workflow</title>
+  <desc id="desc">Five stages show how an AI agent and researcher collaborate from defining a research question to delivering and checking a survey.</desc>
+  <rect width="1280" height="480" fill="#f5f7f5"/>
+  <text x="48" y="54" fill="#182b2b" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="25" font-weight="700">From research question to reading plan</text>
+  <text x="48" y="82" fill="#5d6c69" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="14">A practical loop: AI gathers and organizes evidence; the researcher reads and makes the calls.</text>
+
+  <g font-family="Inter, Segoe UI, Arial, sans-serif">
+    <rect x="48" y="112" width="1184" height="50" rx="7" fill="#e8f2ef"/>
+    <circle cx="75" cy="137" r="11" fill="#167b72"/>
+    <path d="M70 137h10M75 132v10" stroke="#fff" stroke-width="2" stroke-linecap="round"/>
+    <text x="98" y="133" fill="#15594f" font-size="12" font-weight="700" letter-spacing="1">AI AGENT</text>
+    <text x="98" y="151" fill="#315e56" font-size="13">Search, verify identities, trace references, prepare reading notes and comparisons.</text>
+    <rect x="48" y="170" width="1184" height="50" rx="7" fill="#fff0e9"/>
+    <circle cx="75" cy="195" r="11" fill="#d86f4d"/>
+    <path d="M70 195h10M75 190v10" stroke="#fff" stroke-width="2" stroke-linecap="round"/>
+    <text x="98" y="191" fill="#984a32" font-size="12" font-weight="700" letter-spacing="1">RESEARCHER</text>
+    <text x="98" y="209" fill="#80513f" font-size="13">Set the question, judge relationships, read backbone papers and give feedback.</text>
+
+    <g fill="#fff" stroke="#dce4e0">
+      <rect x="48" y="254" width="216" height="164" rx="8"/>
+      <rect x="292" y="254" width="216" height="164" rx="8"/>
+      <rect x="536" y="254" width="216" height="164" rx="8"/>
+      <rect x="780" y="254" width="216" height="164" rx="8"/>
+      <rect x="1024" y="254" width="208" height="164" rx="8"/>
+    </g>
+    <g stroke="#9aa9a4" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M268 336h17m-6-6 6 6-6 6"/>
+      <path d="M512 336h17m-6-6 6 6-6 6"/>
+      <path d="M756 336h17m-6-6 6 6-6 6"/>
+      <path d="M1000 336h17m-6-6 6 6-6 6"/>
+    </g>
+    <g>
+      <circle cx="74" cy="282" r="13" fill="#e7f2ef"/><text x="70" y="287" fill="#167b72" font-size="12" font-weight="700">1</text>
+      <circle cx="318" cy="282" r="13" fill="#e7f2ef"/><text x="314" y="287" fill="#167b72" font-size="12" font-weight="700">2</text>
+      <circle cx="562" cy="282" r="13" fill="#e7f2ef"/><text x="558" y="287" fill="#167b72" font-size="12" font-weight="700">3</text>
+      <circle cx="806" cy="282" r="13" fill="#e7f2ef"/><text x="802" y="287" fill="#167b72" font-size="12" font-weight="700">4</text>
+      <circle cx="1050" cy="282" r="13" fill="#e7f2ef"/><text x="1046" y="287" fill="#167b72" font-size="12" font-weight="700">5</text>
+    </g>
+    <g fill="#203333" font-size="17" font-weight="700">
+      <text x="96" y="288">Define scope</text>
+      <text x="340" y="288">Find starting papers</text>
+      <text x="584" y="288">Trace the lineage</text>
+      <text x="828" y="288">Prepare the reading</text>
+      <text x="1072" y="288">Deliver and check</text>
+    </g>
+    <g fill="#64716e" font-size="12">
+      <text x="68" y="317">Question · purpose · budget</text>
+      <text x="68" y="339">Agent: surface candidates</text>
+      <text x="68" y="359">Researcher: set priorities</text>
+      <text x="312" y="317">Anchors · reviews · search</text>
+      <text x="312" y="339">Agent: check paper identity</text>
+      <text x="312" y="359">Researcher: select seeds</text>
+      <text x="556" y="317">Earlier work · later work</text>
+      <text x="556" y="339">Agent: gather evidence</text>
+      <text x="556" y="359">Researcher: judge relations</text>
+      <text x="800" y="317">Backbone · follow-up</text>
+      <text x="800" y="339">Agent: prepare guides</text>
+      <text x="800" y="359">Researcher: read originals</text>
+      <text x="1044" y="317">Survey · notes · open checks</text>
+      <text x="1044" y="339">Agent: draft and validate</text>
+      <text x="1044" y="359">Researcher: feedback loop</text>
+    </g>
+    <g>
+      <rect x="68" y="382" width="150" height="22" rx="4" fill="#f0f5f3"/>
+      <text x="80" y="397" fill="#477068" font-size="11" font-weight="600">Make assumptions visible</text>
+      <rect x="312" y="382" width="166" height="22" rx="4" fill="#f0f5f3"/>
+      <text x="324" y="397" fill="#477068" font-size="11" font-weight="600">Citations are not inheritance</text>
+      <rect x="556" y="382" width="170" height="22" rx="4" fill="#f0f5f3"/>
+      <text x="568" y="397" fill="#477068" font-size="11" font-weight="600">Trace claims to the source</text>
+      <rect x="800" y="382" width="170" height="22" rx="4" fill="#f0f5f3"/>
+      <text x="812" y="397" fill="#477068" font-size="11" font-weight="600">Reading status needs feedback</text>
+      <rect x="1044" y="382" width="164" height="22" rx="4" fill="#f0f5f3"/>
+      <text x="1056" y="397" fill="#477068" font-size="11" font-weight="600">Uncertainty stays explicit</text>
+    </g>
+  </g>
+</svg>

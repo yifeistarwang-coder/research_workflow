@@ -1,6 +1,6 @@
 # 报告写法
 
-报告服务于 researcher 的阅读和判断。开头直接说明这条线从哪里起步，后来哪几篇改变了思路，以及建议先读哪篇。
+仅在撰写完整报告或准备 PDF 时读取本规范；质量检查统一使用 [一次交付核对](../SKILL.md#一次交付核对)，无需在这里重复执行。
 
 ## 文件分工
 
@@ -10,13 +10,17 @@
 | `backbone/*.md` | 每篇主干的导读、原文位置、比较依据与 researcher 的阅读反馈 |
 | `digests/related_work.md` | 按问题组织的短综述及各篇 follow-up 的差异与出处 |
 
-篇幅按任务和材料决定。Markdown 报告引用导读和 digest 的路径即可，不必重复每个实验细节。
+这些路径用于完整调研。只创建本次需要的文件；简短候选表或阅读建议可直接交付。开头说明主线起点、关键转折和建议先读的论文，篇幅按任务和材料决定。Markdown 报告引用导读和 digest 的路径即可，不必重复每个实验细节。
 
 ## 条件性 PDF 交付
 
-最终交付前检查可用的 LaTeX 引擎：pdfLaTeX、XeLaTeX 或 LuaLaTeX。有可用环境时，将报告编译为 `survey.pdf`，以 PDF 作为主要交付文件，同时保留 Markdown 源文件和编译所用的 LaTeX 源文件。将主干导读和 related work 纳入 PDF 正文或附录，内部引用改为相应章节引用，避免仅靠本地 Markdown 链接承载内容。
+此规则适用于完整调研报告的最终交付，或用户明确要求 PDF 的任务。用户指定其他格式时遵循该要求；简短答复、中间结果和局部编辑不触发引擎探测或编译。
 
-按语言和字体支持选择引擎；中文报告优先使用 XeLaTeX 或 LuaLaTeX。交付前确认编译成功，并检查中文、公式、表格和引用的显示。仅检测到引擎命令不代表现有环境一定能完成编译；若缺少所需字体或宏包，且无法利用现有环境解决，则回退为 Markdown 并简要说明原因。没有 LaTeX 环境时直接交付 Markdown，不要求为此安装 LaTeX。
+保留“现有 LaTeX 环境可用时以 PDF 作为完整报告主要交付”的偏好。复用本会话已知的可用引擎；未知时只探测一次 pdfLaTeX、XeLaTeX 或 LuaLaTeX，找到适用引擎即可。中文优先使用 XeLaTeX 或 LuaLaTeX，不为同一报告反复探测所有引擎。
+
+将报告编译为 `survey.pdf`，保留 Markdown 和 LaTeX 源文件。将本次已生成的主干导读和 related work 纳入 PDF 正文或附录，内部引用改为相应章节引用，避免仅靠本地 Markdown 链接承载内容。仅转换或编译报告的任务不重新启动文献检索。
+
+交付前检查实际编译结果及中文、公式、表格和引用的显示。编译流程为解决交叉引用所需的多轮运行属于必要步骤；相关源文件未变且检查已通过时不再重编译。仅检测到引擎命令不代表编译成功。缺少引擎、字体或宏包且无法用现有环境解决时，交付 Markdown 并说明 PDF 未完成及原因；不自动安装 LaTeX、修改全局环境或为格式回退再请求确认。
 
 ## 主线
 
@@ -44,4 +48,4 @@
 
 语言跟随 researcher 的要求。术语以准确、便于查阅为准，首次出现时可同时给出中英文，不强制此后只能使用英文。
 
-模板见 [survey 模板](../assets/survey-template.md)。[主干示例](../assets/example-backbone-note.md)、[related work 示例](../assets/example-related-work.md) 和 [报告示例](../assets/example-survey.md) 使用同一组虚构论文演示写法，不能作为真实文献使用。
+需要报告骨架时再读 [survey 模板](../assets/survey-template.md)。仅在具体写法不清楚时选读 [主干示例](../assets/example-backbone-note.md)、[related work 示例](../assets/example-related-work.md) 或 [报告示例](../assets/example-survey.md)，无需全读。这些示例使用虚构论文，不能作为真实文献使用。
